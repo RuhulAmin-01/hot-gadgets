@@ -1,0 +1,236 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #f0e5e5;
+  }
+
+.header{
+    padding: 40px 0;
+    margin-bottom: 100px;
+}
+
+ul,ol {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: 0;
+}
+
+
+button:focus, .buy-now-button:focus {
+    outline: 0;
+    box-shadow: none;
+}
+span {
+    display: inline-block;
+}
+
+section {
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #1F1F1F;
+    font-weight: 700;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 33px;
+}
+h3{
+    font-size: 28px;
+}
+h4{
+    font-size: 22px;
+}
+p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+}
+button {
+    cursor: pointer;
+    padding: 0;
+    border: 0;
+    background: 0;
+}
+a, .buy-now-button, .card, .card img, .carousel-indicators li{
+    transition: .5s;
+}
+.buy-now-button{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: #000000;
+    padding: 14px 31px 14px 27px;
+}
+.buy-now-button:hover{
+    color: rgba(255, 255, 255, .8);
+}
+.section-title{
+    padding-bottom: 90px;
+}
+.section-title hr{
+    height: 10px;
+    width: 135px;
+    border: 0;
+    margin: 0 auto;
+    border-radius: 18px;
+    margin-top: 15px;
+    border: 0;
+    background-image: linear-gradient(45deg, #FF9C35, #FFD019);
+}
+
+.navbar{
+    z-index: 1;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    color: #707070;
+    text-transform: capitalize;
+    padding: 10px 25px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #000000;
+}
+
+.position{
+    background-image: url(images/banner-products/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 150px;
+    margin-top: -95px;
+}
+.carousel-item h1{
+    margin-bottom: 30px;
+}
+.carousel-item p{
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 35px;
+}
+.carousel-img {
+    height: 800px;
+}
+.carousel-img img {
+    height: 100%;
+    float: right;
+}
+
+.carousel-indicators li {
+    border-radius: 50px;
+    opacity: 1;
+    background-color: #CECECE;
+    width: 16px;
+    height: 12px;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+.carousel-indicators .active {
+    background-image: linear-gradient(45deg, #FF9C35, #FFD019);
+    width: 45px;
+}
+
+
+.card-deck .card {
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 0 10px 30px rgba(0,0,0,.05);
+    border: 0;
+    text-align: center;
+    padding: 60px 50px 54px;
+    border-radius: 21px;
+    cursor: grab;
+}
+.card:hover {
+    box-shadow: 0 20px 20px -20px rgba(0,0,0,0.25);
+}
+.card img {
+    margin-bottom: 18px;
+    transform: scale(1.1)
+}
+.card:hover img {
+    transform: scale(1);
+}
+.card-title {
+    margin-bottom: 14px;
+}
+.card-text {
+    margin-bottom: 40px;
+}
+.price {
+    margin-bottom: 5px;
+}
+.card-footer {
+    border: 0;
+    background: #ffffff;
+    padding: 0;
+}
+
+.product-title {
+    margin-bottom: 35px;
+    text-transform: capitalize;
+}
+.product-title a {
+    color: #FF9D00;
+    font-size: 22px;
+    font-weight: 500;
+}
+.product-title a:hover{
+    color: #FFCF1A;
+}
+.product-1{
+    padding-bottom: 100px;
+}
+.product-2{
+    padding-bottom: 210px;
+}
+
+.categories{
+    padding-bottom: 120px;
+}
+.categories-card{
+    background-color: #ffffff;
+    box-shadow: 0 6px 64px rgba(0, 0, 0, .15);
+    text-align: center;
+    padding: 58px 62px;
+    border-radius: 5px;
+}
+.categories-card img{
+    margin-bottom: 35px;
+}
+.categories-card--left .categories-card{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 40px;
+}
+.categories-card--right .categories-card{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 40px;
+}
+
+footer{
+    text-align: center;
+    font-size: 15px;
+}
