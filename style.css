@@ -229,6 +229,9 @@ a, .buy-now-button, .card, .card img, .carousel-indicators li{
     border-top-left-radius: 20px;
     border-bottom-right-radius: 40px;
 }
+.mailbox{
+    margin-bottom: 200px;
+}
 
 footer{
     text-align: center;
